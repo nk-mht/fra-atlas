@@ -1,2 +1,2 @@
 # fra-atlas
-Team AIT-SIH-129's WebGIS based DSS 
+Team AIT-SIH-129's PS's Data lib
