@@ -19,7 +19,8 @@ GEOJSON_PATH = "data/india_states.geojson"
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("https://raw.githubusercontent.com/nk-mht/fra-atlas/develop/data/RS_Session_265_AU_1896_B_1.csv")
+        df = pd.read_csv("https://raw.githubusercontent.com/nk-mht/fra-atlas/develop/RS_Session_265_AU_1896_B_1.csv")
+
     except Exception as e:
         st.error(f"Could not load CSV from GitHub: {e}")
         return None
